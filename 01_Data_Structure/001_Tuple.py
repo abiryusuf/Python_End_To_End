@@ -17,3 +17,13 @@ if x > y:
     print("X is bigger")
 else:
     print("Y is bigger")
+r = "abir"
+y = "yusuf"
+print(r + y)
+
+# Definition of savings and result
+savings = str(100)
+result = str(100 * 1.10 ** 7)
+
+# Fix the printout
+print("I started with $" + savings + " and now have $" + result + ". Awesome!")
