@@ -4,5 +4,9 @@ slice
 """
 
 x = "Abir Yusuf"
+print(x)
+# start from index 0
+print(x[:5])
 
-print(x[:4])
+# start from index 3 letter 4 and end 7
+print(x[3:7])
