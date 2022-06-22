@@ -5,8 +5,8 @@ the specifies separator"""
 
 C = "I am abir"
 b = C.split()
-print(b)
-
+for x in b:
+    print(x)
 
 # Upper () and lower() method
 
