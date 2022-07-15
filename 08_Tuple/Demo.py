@@ -7,3 +7,10 @@ tuple has been created
 """
 thisTuple = ("Apple",)  # need a comma for a tuple or it will be string
 print(type(thisTuple))
+x = ("abir")
+print(type(x))
+
+thisT = ("a", "b", "c", "d")
+x = thisT.count("b")
+print(x)
+
