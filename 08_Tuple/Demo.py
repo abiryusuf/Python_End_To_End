@@ -14,3 +14,9 @@ thisT = ("a", "b", "c", "d")
 x = thisT.count("b")
 print(x)
 
+# update
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits)
+
+print(fruits)
