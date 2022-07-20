@@ -1,4 +1,5 @@
-# List comprehension allow to create a new list from a sequence
+# List comprehension allow to create a
+# new list from a sequence
 info = ["Abir", "Mim", "jim"]
 
 newMember = []
@@ -9,13 +10,16 @@ for i in info:
 print(newMember)
 f = [i.upper() for i in info if "i" in i]
 print(f)
-mul = []
-for num in range(1, 10):
-    mul.append(num * 2)
-print(mul)
 
-y = {i * 2 for i in range(1, 5)}
-print(y)
+num = []
+
+for i in range(10):
+    x = num.append(i * 2)
+print(x)
+
+y = [i * 2 for i in range(1, 5)]
+print("New", y)
+
 
 
 # range and condition
