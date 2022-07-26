@@ -1,11 +1,16 @@
-num = [7, 8, 8, 3]
+num = [7, 9, 8, 3]
+
+num.sort(reverse=True)
+print(num)
+num.reverse()
+print(num)
 x = sorted(num)
 print(x)
 
-str = ['t', 'c', 'd', 'u', 'a']
-# sort descending
-str.sort(reverse=True)
-print(str)
 
-str.reverse()
-print(str)
+def reverseStr(str):
+    newStr = ""
+    for i in str:
+        newStr = i + newStr
+    return newStr.upper()
+print(reverseStr("Abir"))

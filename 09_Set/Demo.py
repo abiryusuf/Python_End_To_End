@@ -7,6 +7,9 @@ set use curly brackets
 """
 
 thisSet = {"a", "b", "c", "d", "d"}
+x = ["r", "t"]
+
+thisSet.update(x)
 
 print(thisSet)
 print(type(thisSet))
