@@ -49,3 +49,15 @@ def myFun_One(**kwargs):
         print("%s == %s" % (key, value))
 
 myFun_One(name="abir", live="NY")
+
+def square_value(num):
+    return num**3
+print(square_value(2))
+
+def myFunTwo(x):
+    x[2] =3
+listA=[10, 11, 12, 13]
+
+
+myFunTwo(listA)
+print(listA)

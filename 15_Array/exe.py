@@ -1,5 +1,17 @@
 
-g = [1, 4, 5, 6]
+def myFun(e):
+    return len(e)
+cars = ["g", "c", "d"]
 
-for i in range(len(g)):
-    print(g[i], end=" ")
+cars.sort()
+
+print(cars)
+
+def myFunc(x):
+    return x["year"]
+names = [
+    {"name": "mim", "year": 6},
+    {"name": "Jim", "year": 3}
+]
+names.sort(key=myFun)
+print(names)
