@@ -15,9 +15,15 @@ print()
 
 print(a[0])
 
-b = arr.array("i",[1, 2, 3, 4])
+b = arr.array("d", [1, 2, 3, 4])
+for i in range(len(b)):
+    print(b[i], end =" ")
+
+# slice: range of array
+print("\n")
+listTwo = [10, 30, 40, 50]
+x = arr.array("i", listTwo)
+for i in range(len(x)):
+    print(x[i], end=" ")
 
 
-x = ["a", "b", "b"]
-
-print(type(a))

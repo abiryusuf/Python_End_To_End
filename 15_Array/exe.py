@@ -2,7 +2,9 @@
 def myFun(e):
     return len(e)
 cars = ["g", "c", "d"]
+cars.reverse()
 
+print(cars)
 cars.sort()
 
 print(cars)
