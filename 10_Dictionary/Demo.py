@@ -19,7 +19,9 @@ print(thisCar.get("brand"))
 x = thisCar.keys()
 y = thisCar.values()
 z = thisCar.items()
+# add item
 thisCar["color"] = "matt"
+# change
 thisCar["year"] = "2023"
 thisCar.update({"model": "sportage pro"})
 print(x)

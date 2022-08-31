@@ -4,6 +4,13 @@ The while loop we can execute a set of statements as long a
 condition is true.
 """
 
+i = 0
+while i < 5:
+
+    print(i, end=" ")
+    if i == 3:
+        break
+    i += 1
 # Break statement we can stop the loop even if the while condition in true
 i = 0
 while i < 10:
@@ -24,4 +31,4 @@ while i < 10:
     i *= 2
     if i == 4:
         continue
-    print(i)
+    #print(i)

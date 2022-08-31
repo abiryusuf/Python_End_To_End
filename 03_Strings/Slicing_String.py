@@ -10,3 +10,7 @@ print(x[:5])
 
 # start from index 3 letter 4 and end 7
 print(x[3:7])
+
+y = "Mim Jim"
+
+print(y[0:3])

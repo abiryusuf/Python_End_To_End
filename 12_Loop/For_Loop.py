@@ -29,10 +29,26 @@ for a in adj:
         pass
 
 # Print with range
+for i in range(10):
+    print(i, end=" ")
+sum = 0
+for i in range(1, 10):
+    sum += i
+    print("\nSum of first 10 numbers :", sum)
+
+
 x = [1, 2,  3, 4, 5, 6, 7, 8]
-y = [1, 2, 3, 4, 5, 6]
+sum = 0
 for i in x:
-    for j in y:
-        print(i, end="")
-    print()
+    sum += i
+    if sum % 2 == 0:
+        print("THIS IS EVEN", sum)
+    else:
+        print("This is Odd", sum)
+print(sum)
+# y = [1, 2, 3, 4, 5, 6]
+# for i in x:
+#     for j in y:
+#         print(i, end="")
+#     print()
 
