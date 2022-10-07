@@ -9,10 +9,16 @@ def binarySearch(n, target):
         mid = (low + high) // 2
         if n[mid] == target:
             return True
-        elif n[mid] < target:
+        if n[mid] < target:
             low = mid
         else:
             high = mid
     return False
+target = 3
+x = binarySearch(list_A, target)
 
+if x == -1:
+    print("Item is not found")
+else:
+    print("Found", x)
 print(binarySearch(list_A, 10))
