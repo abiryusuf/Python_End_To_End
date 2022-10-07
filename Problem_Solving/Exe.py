@@ -1,14 +1,18 @@
 
 list_A = [1, 3, 10, 9, 11, 60, 5, 16]
 
-def linearSearch(n, target):
+def binarySearch(n, target):
+    low = 0
+    high = len(n) - 1
 
-    for i in range(len(n)):
-        x = n[i]
-        if x == target:
+    while low < high:
+        mid = (low + high) // 2
+        if n[mid] == target:
             return True
+        elif n[mid] < target:
+            low = mid
+        else:
+            high = mid
     return False
-print(linearSearch(list_A, 11))
 
-
-
+print(binarySearch(list_A, 10))
