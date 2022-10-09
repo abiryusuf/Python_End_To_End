@@ -1,24 +1,20 @@
+list_A = [1, 3, 10, 9, 11]
+list_B = [20, 8, 40, 50, 80]
 
-list_A = [1, 3, 10, 9, 11, 60, 5, 16]
+def merge(listA, listB):
 
-def binarySearch(n, target):
-    low = 0
-    high = len(n) - 1
+    new_list = []
+    a = 0
+    b = 0
+    for i in range(len(listA)):
+        if a < listA[i]:
+            new_list.append(listA[i])
+    for j in range(len(listB)):
+        if b < listB[j]:
+            new_list.append(list_B[j])
 
-    while low < high:
-        mid = (low + high) // 2
-        if n[mid] == target:
-            return True
-        if n[mid] < target:
-            low = mid
-        else:
-            high = mid
-    return False
-target = 3
-x = binarySearch(list_A, target)
+    return new_list
 
-if x == -1:
-    print("Item is not found")
-else:
-    print("Found", x)
-print(binarySearch(list_A, 10))
+
+print(merge(list_A, list_B))
+
