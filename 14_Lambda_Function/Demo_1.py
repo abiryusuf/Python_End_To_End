@@ -1,10 +1,6 @@
 
-# list comprehension
-x = [lambda x=i: x * 10 for i in range(1, 3)]
+x = lambda string: string[::-1]
+print(x('i am abir'))
 
-for i in x:
-    print(i())
-
-d = lambda a, b: a if a > b else b
-
-print(d(2, 3))
+max = lambda a, b: a if (a > b ) else b
+print(max(8, 6))

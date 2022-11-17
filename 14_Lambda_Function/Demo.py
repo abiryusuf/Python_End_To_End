@@ -37,4 +37,10 @@ print(y)
 g = lambda h, t: y - t
 print(g(6, 3))
 
+"""With lambda function	Without lambda function
+Supports single line statements that returns some value.	Supports any number of lines inside a function block
+Good for performing short operations/data manipulations.	Good for any cases that require multiple lines of code.
+Using lambda function can sometime reduce the readability of code.	We can use comments and function descriptions for easy readability.
+"""
+
 
